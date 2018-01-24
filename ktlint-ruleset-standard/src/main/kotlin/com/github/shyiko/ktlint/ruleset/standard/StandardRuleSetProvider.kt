@@ -25,7 +25,8 @@ class StandardRuleSetProvider : RuleSetProvider {
         NoTrailingSpacesRule(),
         NoUnitReturnRule(),
         NoUnusedImportsRule(),
-        NoWildcardImportsRule(),
+        // disabled NoWildcardImport
+        // NoWildcardImportsRule(),
         SpacingAroundColonRule(),
         SpacingAroundCommaRule(),
         SpacingAroundCurlyRule(),
